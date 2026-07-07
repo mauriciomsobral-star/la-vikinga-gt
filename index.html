@@ -8,7 +8,7 @@
 <link rel="icon" type="image/png" href="assets/img/favicon-512.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,13 +18,17 @@
     <a class="logo" href="#top">
       <img src="assets/img/logo@2x.png" alt="La Vikinga GT" class="logo-img">
     </a>
+    <div class="header-meta">
+      <span>2336-7730</span>
+      <span class="dot">/</span>
+      <span>Guatemala, Centroamérica</span>
+    </div>
     <nav class="nav" id="nav">
-      <a href="#catalogo">Catálogo</a>
-      <a href="#nosotros">Quiénes Somos</a>
-      <a href="#valores">Valores</a>
-      <a href="#contacto">Contacto</a>
+      <a href="#catalogo"><span>01</span>Catálogo</a>
+      <a href="#nosotros"><span>02</span>Quiénes Somos</a>
+      <a href="#valores"><span>03</span>Valores</a>
+      <a href="#contacto"><span>04</span>Contacto</a>
     </nav>
-    <a href="https://wa.me/50247226723" target="_blank" class="nav-cta">WhatsApp</a>
     <button class="hamburger" id="hamburger" aria-label="Menú">
       <span></span><span></span><span></span>
     </button>
@@ -32,45 +36,40 @@
 </header>
 
 <section id="top" class="hero">
-  <div class="hero-marquee" aria-hidden="true">
-    <div class="hero-marquee-track">
-      <span>CONFITERÍA</span><span>·</span><span>CANEL&rsquo;S</span><span>·</span>
-      <span>CENTROAMÉRICA</span><span>·</span><span>CONFITERÍA</span><span>·</span>
-      <span>CANEL&rsquo;S</span><span>·</span><span>CENTROAMÉRICA</span><span>·</span>
+  <div class="container hero-grid">
+    <div class="hero-col-left">
+      <p class="eyebrow">Comercializadora de Confitería<br>Centroamérica</p>
+      <div class="hero-stats-col">
+        <div class="stat"><strong>100+</strong><span>Años de tradición Canel&rsquo;s</span></div>
+        <div class="stat"><strong>80+</strong><span>Productos distribuidos</span></div>
+        <div class="stat"><strong>Ágil</strong><span>Entrega y servicio</span></div>
+      </div>
     </div>
-  </div>
-  <div class="container hero-stage">
-    <h1 class="hero-mega">
-      <span class="line">PRESENCIA</span>
-      <span class="line line-outline">Y CONFIANZA</span>
-      <span class="line">EN CADA PUNTO</span>
-      <span class="line line-tag">de venta<sup>®</sup></span>
-    </h1>
-    <img src="assets/catalogo/page_04.jpg" alt="Producto Canel's" class="hero-float hero-float-1">
-    <img src="assets/catalogo/page_06.jpg" alt="Producto Canel's" class="hero-float hero-float-2">
-    <div class="hero-badge-spin">
-      <svg viewBox="0 0 100 100"><path id="circlePath" fill="none" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"/><text><textPath href="#circlePath">DISTRIBUIDORA · OFICIAL · CANEL'S · </textPath></text></svg>
-      <span class="hero-badge-dot"></span>
+    <div class="hero-col-mid">
+      <h1>Presencia y confianza en cada punto de venta</h1>
+      <p class="hero-sub">Distribuimos la línea completa Canel&rsquo;s con cercanía, agilidad y compromiso — llevando dulzura a comercios de toda la región.</p>
+      <div class="hero-actions">
+        <a href="#catalogo" class="btn btn-primary">Ver Catálogo ↗</a>
+        <a href="#contacto" class="btn btn-outline">Contáctanos</a>
+      </div>
     </div>
-  </div>
-  <p class="hero-sub-bottom">Distribuimos la línea completa Canel&rsquo;s con cercanía, agilidad y compromiso — llevando dulzura a comercios de toda Centroamérica.</p>
-  <div class="hero-actions">
-    <a href="#catalogo" class="btn btn-primary">Ver Catálogo</a>
-    <a href="#contacto" class="btn btn-outline">Contáctanos</a>
-  </div>
-  <div class="hero-stats">
-    <div class="stat"><strong>100+</strong><span>Años Canel&rsquo;s</span></div>
-    <div class="stat"><strong>80+</strong><span>Productos</span></div>
-    <div class="stat"><strong>Ágil</strong><span>Entrega</span></div>
+    <div class="hero-col-right">
+      <img src="assets/catalogo/page_02.jpg" alt="Catálogo Canel's">
+    </div>
   </div>
 </section>
 
 <section id="catalogo" class="section catalogo">
   <div class="container">
     <div class="section-head">
-      <p class="section-tag">(01) Nuestros Productos</p>
-      <h2>Catálogo<br><span class="stroke">Canel&rsquo;s</span> 25–26</h2>
-      <p class="lead">Descubre la línea completa de chicles, dulces, paletas y confites que distribuimos.</p>
+      <p class="section-tag">/ 01 — Nuestros Productos</p>
+      <div class="section-head-row">
+        <h2>Catálogo Canel&rsquo;s<br>2025 – 2026</h2>
+        <p class="lead">Descubre la línea completa de chicles, dulces, paletas y confites que distribuimos.</p>
+      </div>
+    </div>
+
+    <div class="catalogo-actions">
       <a href="assets/catalogo-completo.pdf" target="_blank" class="btn btn-primary">Descargar PDF completo</a>
     </div>
 
@@ -83,17 +82,19 @@
 
 <section id="nosotros" class="section nosotros">
   <div class="container">
-    <p class="section-tag">(02) Quiénes Somos</p>
-    <h2 class="nosotros-h2">Distribuidora<br><span class="stroke">La Vikinga</span></h2>
-    <p class="lead lead-wide">La Vikinga es una distribuidora y comercializadora guatemalteca dedicada a llevar los productos de confitería de la marca <strong>Canel&rsquo;s</strong> a comercios, tiendas y puntos de venta en toda Centroamérica. Con cercanía, agilidad y compromiso, conectamos a nuestros clientes con los dulces, chicles y golosinas favoritas de miles de consumidores.</p>
+    <p class="section-tag">/ 02 — Quiénes Somos</p>
+    <div class="section-head-row">
+      <h2>Distribuidora<br>La Vikinga</h2>
+      <p class="lead">La Vikinga es una distribuidora y comercializadora guatemalteca dedicada a llevar los productos de confitería de la marca <strong>Canel&rsquo;s</strong> a comercios, tiendas y puntos de venta en toda Centroamérica. Con cercanía, agilidad y compromiso, conectamos a nuestros clientes con los dulces, chicles y golosinas favoritas de miles de consumidores.</p>
+    </div>
 
     <div class="mvv-grid">
-      <div class="mvv-card mvv-tilt-1">
-        <span class="mvv-tag">MISIÓN</span>
+      <div class="mvv-card">
+        <span class="mvv-index">Misión / 01</span>
         <p>Llevar dulzura a cada punto de venta con eficiencia, compromiso y alegría. Nos apasiona conectar marcas, clientes y consumidores a través de un servicio confiable, ágil y hecho con el corazón.</p>
       </div>
-      <div class="mvv-card mvv-tilt-2">
-        <span class="mvv-tag">VISIÓN</span>
+      <div class="mvv-card">
+        <span class="mvv-index">Visión / 02</span>
         <p>Ser la empresa de distribución de confitería más confiable y dinámica del mercado, reconocida por nuestro servicio excepcional, nuestra capacidad de respuesta y por hacer las cosas bien siempre.</p>
       </div>
     </div>
@@ -102,16 +103,44 @@
 
 <section id="valores" class="section valores">
   <div class="container">
-    <p class="section-tag light">(03) Lo que nos define</p>
-    <h2 class="light-h2">Nuestros Valores</h2>
-    <div class="valores-scatter">
-      <div class="valor-card v-1"><div class="valor-num">01</div><h4>Eficiencia con propósito</h4><p>Entregamos a tiempo, optimizando recursos.</p></div>
-      <div class="valor-card v-2"><div class="valor-num">02</div><h4>Pasión por servir</h4><p>Nos mueve la satisfacción de nuestros clientes.</p></div>
-      <div class="valor-card v-3"><div class="valor-num">03</div><h4>Compromiso real</h4><p>Cumplimos nuestras promesas cada día.</p></div>
-      <div class="valor-card v-4"><div class="valor-num">04</div><h4>Cercanía</h4><p>Relaciones duraderas con clientes y socios.</p></div>
-      <div class="valor-card v-5"><div class="valor-num">05</div><h4>Trabajo en equipo</h4><p>Juntos logramos más, siempre.</p></div>
-      <div class="valor-card v-6"><div class="valor-num">06</div><h4>Integridad</h4><p>Transparencia en cada paso.</p></div>
-      <div class="valor-card v-7"><div class="valor-num">07</div><h4>Innovación constante</h4><p>Nuevas formas de mejorar y sorprender.</p></div>
+    <p class="section-tag">/ 03 — Lo que nos define</p>
+    <h2>Nuestros Valores</h2>
+    <div class="valores-list">
+      <div class="valor-row">
+        <div class="valor-num">01</div>
+        <h4>Eficiencia con propósito</h4>
+        <p>Entregamos a tiempo, optimizando recursos y cuidando cada detalle.</p>
+      </div>
+      <div class="valor-row">
+        <div class="valor-num">02</div>
+        <h4>Pasión por servir</h4>
+        <p>Nos mueve la satisfacción de nuestros clientes y el entusiasmo por lo que hacemos.</p>
+      </div>
+      <div class="valor-row">
+        <div class="valor-num">03</div>
+        <h4>Compromiso real</h4>
+        <p>Cumplimos nuestras promesas, así nos ganamos la confianza día a día.</p>
+      </div>
+      <div class="valor-row">
+        <div class="valor-num">04</div>
+        <h4>Cercanía</h4>
+        <p>Escuchamos, entendemos y construimos relaciones duraderas con nuestros socios y clientes.</p>
+      </div>
+      <div class="valor-row">
+        <div class="valor-num">05</div>
+        <h4>Trabajo en equipo</h4>
+        <p>Juntos logramos más aprendiendo, creciendo y celebrando cada logro.</p>
+      </div>
+      <div class="valor-row">
+        <div class="valor-num">06</div>
+        <h4>Integridad</h4>
+        <p>Actuamos con transparencia y responsabilidad en cada paso del proceso.</p>
+      </div>
+      <div class="valor-row">
+        <div class="valor-num">07</div>
+        <h4>Innovación constante</h4>
+        <p>Buscamos nuevas formas de mejorar, crecer y sorprender.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -119,8 +148,8 @@
 <section id="contacto" class="section contacto">
   <div class="container contacto-inner">
     <div class="contacto-info">
-      <p class="section-tag">(04) Contacto</p>
-      <h2>Hablemos<span class="stroke">.</span></h2>
+      <p class="section-tag">/ 04 — Contacto</p>
+      <h2>Hablemos</h2>
       <p class="lead">Escríbenos o llámanos, con gusto te atendemos.</p>
 
       <ul class="contact-list">
