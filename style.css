@@ -1,13 +1,13 @@
 :root{
-  --sky:#eef6ee;
-  --sky-line:#cfe6d3;
+  --sky:#fbf1ea;
+  --sky-line:#f0dcc9;
   --paper:#ffffff;
   --ink:#0c2237;
   --ink-soft:#5a7387;
-  --blue:#1f7a4d;
-  --blue-deep:#0f4a30;
-  --navy:#0b2318;
-  --line:#c2ddca;
+  --blue:#c1552e;
+  --blue-deep:#8a3a1e;
+  --navy:#2c1810;
+  --line:#e8d2bd;
   --mono:'IBM Plex Sans',sans-serif;
   --display:'Space Grotesk',sans-serif;
 }
