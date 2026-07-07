@@ -31,7 +31,7 @@ img{max-width:100%;display:block;}
 /* HEADER */
 .site-header{
   position:sticky;top:0;z-index:100;
-  background:rgba(255,255,255,.94);
+  background:rgba(228,230,234,.94);
   backdrop-filter:saturate(180%) blur(16px);
   border-bottom:1px solid rgba(0,0,0,.08);
 }
@@ -176,7 +176,7 @@ img{max-width:100%;display:block;}
 .contacto-map{flex:1 1 420px;min-height:380px;border-radius:var(--radius);overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.6);border:1px solid var(--line);}
 
 /* FOOTER */
-.site-footer{background:#f2f3f5;border-top:1px solid rgba(0,0,0,.08);padding:36px 0;}
+.site-footer{background:#e4e6ea;border-top:1px solid rgba(0,0,0,.08);padding:36px 0;}
 .footer-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;font-size:.85rem;color:#5a5f68;}
 .footer-logo{height:40px;width:auto;}
 
