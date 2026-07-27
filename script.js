@@ -12,6 +12,12 @@ nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
   nav.classList.remove('active');
 }));
 
+const navClose = document.getElementById('nav-close');
+navClose.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  nav.classList.remove('active');
+});
+
 /* Catálogo grid with "load more" */
 const TOTAL_PAGES = 42;
 const PAGE_SIZE = 12;
