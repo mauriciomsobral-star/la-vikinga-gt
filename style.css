@@ -35,9 +35,9 @@ img{max-width:100%;display:block;}
   backdrop-filter:saturate(180%) blur(16px);
   border-bottom:1px solid rgba(0,0,0,.08);
 }
-.header-inner{display:flex;align-items:center;justify-content:space-between;height:92px;}
+.header-inner{display:flex;align-items:center;justify-content:space-between;height:104px;}
 .logo{display:flex;align-items:center;}
-.logo-img{height:58px;width:auto;}
+.logo-img{height:80px;width:auto;}
 .nav{display:flex;align-items:center;gap:36px;}
 .nav a:not(.nav-cta){font-weight:600;font-size:.92rem;color:#3d4148;transition:color .2s;}
 .nav a:not(.nav-cta):hover{color:var(--blue-deep);}
@@ -178,7 +178,7 @@ img{max-width:100%;display:block;}
 /* FOOTER */
 .site-footer{background:#e4e6ea;border-top:1px solid rgba(0,0,0,.08);padding:36px 0;}
 .footer-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;font-size:.85rem;color:#5a5f68;}
-.footer-logo{height:40px;width:auto;}
+.footer-logo{height:52px;width:auto;}
 
 /* FLOAT WHATSAPP */
 .float-whatsapp{
@@ -250,8 +250,8 @@ img{max-width:100%;display:block;}
   .hero-panel-imgs img:nth-child(2){width:120px;height:164px;transform:translateY(-14px);}
   .hero-panel-stats{gap:26px;padding:26px 0 30px;}
   .mvv-grid{grid-template-columns:1fr;}
-  .header-inner{height:70px;}
-  .logo-img{height:48px;}
+  .header-inner{height:80px;}
+  .logo-img{height:60px;}
   .section{padding:70px 0;}
   .contacto-map{min-height:280px;}
   .valor-card{padding:24px 20px;}
